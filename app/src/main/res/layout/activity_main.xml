@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/awal"
+    tools:context="com.example.pengenalternak.MainActivity">
+
+    <ImageButton
+        android:id="@+id/judul"
+        android:layout_width="348dp"
+        android:layout_height="167dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/judul" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="." />
+
+    <ImageButton
+        android:id="@+id/ButtonMulai"
+        android:layout_width="106dp"
+        android:layout_height="51dp"
+        android:layout_alignBottom="@+id/TextView"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/mulai" />
+
+    <ImageButton
+        android:id="@+id/ButtonTentang"
+        android:layout_width="106dp"
+        android:layout_height="51dp"
+        android:layout_alignBottom="@+id/TextView"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-90dp"
+        android:background="@drawable/tentang" />
+
+    <ImageButton
+        android:id="@+id/ButtonPetunjuk"
+        android:layout_width="106dp"
+        android:layout_height="51dp"
+        android:layout_alignBottom="@+id/TextView"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-161dp"
+        android:background="@drawable/petunjuk" />
+
+</RelativeLayout>
