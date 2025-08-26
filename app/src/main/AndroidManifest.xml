@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pengenalternak">
+
+    <application
+        android:allowBackup="true"
+        android:label="Pengenal Hewan Ternak"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SapiActivity" />
+        <activity android:name=".KudaActivity" />
+        <activity android:name=".KambingActivity" />
+        <activity android:name=".BebekActivity" />
+        <activity android:name=".AyamActivity" />
+        <activity android:name=".AngsaActivity" />
+        <activity android:name=".PetunjukActivity" />
+        <activity android:name=".TentangActivity" />
+        <activity android:name=".MulaiActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
